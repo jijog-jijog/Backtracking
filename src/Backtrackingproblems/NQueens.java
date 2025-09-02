@@ -15,7 +15,6 @@ public class NQueens {
         }
 
         int count = 0;
-
         // placing the queen and checking for every row and col
         for (int col = 0; col < board.length; col++) {
             // place the queen if it is safe
